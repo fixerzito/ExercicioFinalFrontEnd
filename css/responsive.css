@@ -1,0 +1,298 @@
+@media (max-width: 1570px) {
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .um,
+    .dois {
+        margin: 0;
+    }
+
+    .dois {
+        margin-top: 30px;
+    }
+
+    #space {
+        margin-left: 15vw;
+    }
+}
+
+@media (max-width: 1570px) {
+    #space {
+        margin-left: 10vw;
+    }
+
+    .col {
+        width: 360px;
+        height: 500px;
+    }
+
+    .modulos-sequencia {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1395px) {
+    #space {
+        margin-left: 2vw;
+    }
+
+    .navegacao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1251px) {
+    #space {
+        margin-left: 0vw;
+    }
+
+    .navegacao {
+        margin-left: 80px;
+        margin-right: 50px;
+        gap: 75px;
+    }
+
+    .itens-nav {
+        font-size: 20px;
+    }
+
+    .titulo-1 {
+        font-size: 60px;
+    }
+
+    .cronograma {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .turmas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .modulos-sequencia {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1165px) {
+
+    .navegacao {
+        margin-left: 50px;
+        margin-right: 30px;
+        gap: 50px;
+    }
+
+    .itens-nav {
+        font-size: 19px;
+    }
+
+    .titulo-1 {
+        font-size: 60px;
+    }
+
+    .modulos-sequencia {
+        width: 50vw;
+        margin-right: 220px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .navegacao {
+        margin-left: 70px;
+        position: relative;
+        width: 600px;
+        gap: 20px;
+    }
+
+    .itens-nav {
+        font-size: 18px;
+    }
+
+    .titulo-1 {
+        font-size: 60px;
+    }
+
+    .titulo-1-sub {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    #navbar {
+        height: 90px;
+    }
+
+    #cursos {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .registered-symbol {
+        color: #2b3035;
+    }
+
+    .navegacao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .modulos-sequencia {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-1 {
+        width: 400px;
+        text-align: center;
+    }
+
+    .titulo-1-sub {
+        width: 400px;
+        text-align: center;
+    }
+
+    .horarios {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .itens-lista,
+    .itens-conteudo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 586px) {
+    .modules-title {
+        text-align: center;
+    }
+
+    .turmas-title,
+    .turmas-title-sub {
+        text-align: center;
+    }
+
+    .col {
+        height: 550px;
+        width: 250px;
+    }
+
+    .compre {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .user {
+        width: 280px;
+    }
+
+    .user-photo {
+        margin-right: 5px;
+
+    }
+
+    .card-depoimentos {
+        width: 320px;
+        height: 280px;
+        gap: 0;
+    }
+
+    .avaliacoes {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .titulo-1 {
+        width: 280px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .titulo-1-sub {
+        width: 280px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .navegacao {
+        display: block;
+    }
+
+    .compre-titulo {
+        text-align: center;
+    }
+
+    .col {
+        padding: 0;
+    }
+}
+
+@media (max-width: 333px) {
+
+    .navegacao {
+        width: 100px;
+    }
+    .card-depoimentos {
+        width: 220px;
+    }
+
+    .avaliacoes {
+        font-size: 0px;
+        display: block;
+    }
+
+    .lista-horarios {
+        padding: 0;
+    }
+
+    .conteudos {
+        padding-left: 5px;
+    }
+
+    .turmas-title {
+        font-size: 42px;
+    }
+
+    .titulo-1 {
+        width: 280px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .titulo-1-sub {
+        width: 280px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .cronograma {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .nome-empresa {
+        font-size: 32px;
+    }
+
+    .user {
+        width: 250px;
+    }
+}

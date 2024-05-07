@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/code-school.svg" type="icon">
+    <script src="https://kit.fontawesome.com/7f01e1a8e4.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Code Now - Cursos e programação agora!</title>
+</head>
+
+<body>
+    <!-- Barra de navegação interativa da Página, levando aos campos selecionados ao clicar na descrição referente aos mesmos -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/code-school.svg" alt="" width="70px">
+            </a>
+            <h1 class="nome-empresa">CodeNow</h1>
+            <p class="registered-symbol">®</p>
+            <div class="navegacao">
+                <h4 class="pagina-cursos">
+                    <a href="#cursos" class="itens-nav">
+                        Cursos
+                    </a>
+                </h4>
+                <h4 class="pagina-turmas-horarios">
+                    <a href="#turmas-horarios" class="itens-nav">
+                        Turmas e Horários
+                    </a>
+                </h4>
+                <h4 class="pagina-comprar">
+                    <a href="#comprar" class="itens-nav">
+                        Faça sua inscrição
+                    </a>
+                </h4>
+                <h4 class="feedbacks">
+                    <a href="#feedbacks" class="itens-nav">
+                        Feedbacks
+                    </a>
+                </h4>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item-2">
+                        <a class="nav-link active" id="space" aria-current="page" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Área referente à imagem de background (adicionada no CSS) -->
+    <main class="principal">
+        <div class="separation">
+            <h1 class="titulo-1">Seja um desenvolvedor Front-end</h1>
+            <p class="titulo-1-sub">Agora você pode ser um desenvolvedor que o mercado procura</p>
+            <button class="btn btn-inscricao">QUERO SER UM DEV</button>
+        </div>
+    </main>
+
+    <!-- Amostra referente à sequencia de aprendizado dos cursos -->
+    <section class="modules" id="cursos">
+        <div class="title-modules">
+            <h1 class="modules-title">Do básico ao avançado</h1>
+            <p class="modules-sub">Veja a ordem de aprendizado que oferecemos</p>
+        </div>
+        <div class="modulos-sequencia row row-cols-1 row-cols-md-4 g-4" id="cards-centro">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/Logica.jpg" class="card-img-top" alt="Códigos de linguagem de programação"
+                        height="300px">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Lógica de programação</h5>
+                        <p class="card-text">A lógica de programação é essencial para desenvolver algoritmos e resolver
+                            problemas de forma estruturada. Ela capacita os programadores a criar código eficiente e
+                            organizado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/html5.png" class="card-img-top" alt="HTML5" height="300px">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML 5</h5>
+                        <p class="card-text">2. HTML5 é a versão atualizada da linguagem padrão para a criação de páginas
+                            da web, oferecendo novos recursos e elementos para uma experiência web mais dinâmica e
+                            interativa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/css.png" class="card-img-top" alt="CSS3" height="300px">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS 3</h5>
+                        <p class="card-text">3. CSS3 é a versão mais recente da linguagem de estilo para a web,
+                            trazendo novos recursos e capacidades de design para tornar as páginas da web mais
+                            estilizadas e responsivas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/js.png" class="card-img-top" alt="JavaScript" height="300px">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">4. JavaScript é uma linguagem de programação utilizada para adicionar
+                            interatividade a páginas da web, tornando-as dinâmicas e responsivas..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+     <!-- Sessão onde está o cronograma das aulas, a área da timeline foi criada inteiramente no CSS -->
+    <section class="cronograma" id="turmas-horarios">
+        <div class="turmas">
+            <h3 class="turmas-title ">Turmas disponíveis</h3>
+            <p class="turmas-title-sub">Veja as Turmas disponíveis e esolha a sua</p>
+            <button class="btn btn-warning agenda">Ver agenda</button>
+        </div>
+        <div class="horarios">
+            <ul class="lista-horarios">
+                <li class="itens-lista"><b class="bold-h">13/04 8H</b></li>
+                <li class="itens-lista"><b class="bold-h">20/04 8H</b></li>
+                <li class="itens-lista"><b class="bold-h">27/04 8H</b></li>
+                <li class="itens-lista"><b class="bold-h">05/05 8H</b></li>
+            </ul>
+            <ul class="conteudos">
+                <li class="itens-conteudo">LÓGICA DE PROGRAMAÇÃO</li>
+                <li class="itens-conteudo">FUNDAMENTOS HTML</li>
+                <li class="itens-conteudo">FUNDAMENTOS CSS</li>
+                <li class="itens-conteudo">JAVASCRIPT</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+    <!-- Campo de compra do curso, sessão sem grandes complexidades -->
+    <section class="compre" id="comprar">
+        <div class="compre-div">
+            <h1 class="compre-titulo">Compre o curso</h1>
+            <p class="compre-sub">20 horas de aula híbrida</p>
+            <button class="btn btn-warning comprar-btn">COMPRAR</button>
+        </div>
+    </section>
+    <hr>
+    <!-- Campo com os Feedbacks dos alunos -->
+    <h1 class="depoimentos-title" id="feedbacks">Feedbacks</h1>
+    <section class="depoimentos">
+        <div class="card-depoimentos um">
+            <p class="depoimentos-text"><i>"As aulas de html foram sensacionais e conseguimos aprender muito
+                    e até fazer um site."
+                </i>
+            </p>
+            <div class="user">
+                <img src="./img/default-user.jpg" alt="" class="user-photo">
+                <div class="user-desc">
+                    <h4 class="user-name">Fulano De Tal</h4>
+                    <p class="user-grade">Aluno HTML Avançado</p>
+                </div>
+                <div class="avaliacoes">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card-depoimentos dois">
+            <p class="depoimentos-text"><i>"As aulas de html foram sensacionais e conseguimos aprender muito
+                    e até fazer um site."
+                </i>
+            </p>
+            <div class="user">
+                <img src="./img/default-user.jpg" alt="" class="user-photo">
+                <div class="user-desc">
+                    <h4 class="user-name">Fulano De Tal</h4>
+                    <p class="user-grade">Aluno HTML Avançado</p>
+                </div>
+                <div class="avaliacoes">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rodapé da página -->
+    <footer class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="space-2" aria-current="page" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="register">Lucas H Fischer - 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
